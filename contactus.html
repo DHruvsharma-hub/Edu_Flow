@@ -1,0 +1,210 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   About Us - Teacher Scheduling
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+            background-image: url('https://www.transparenttextures.com/patterns/cubes.png'), url('https://www.transparenttextures.com/patterns/subtle-grunge.png');
+            background-attachment: fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background-color: #f0f4f8;
+            color: #6b7280;
+            padding: 1rem;
+        }
+        header .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            color: #6b7280;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        section {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+        }
+        .lg\\:flex-row {
+            flex-direction: row;
+        }
+        .lg\\:w-1 {
+            width: 50%;
+        }
+        .lg\\:pl-6 {
+            padding-left: 1.5rem;
+        }
+        .mt-6 {
+            margin-top: 1.5rem;
+        }
+        .grid {
+            display: grid;
+            gap: 1rem;
+        }
+        .grid-cols-1 {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        .md\\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .lg\\:grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        .gap-8 {
+            gap: 2rem;
+        }
+        .p-4 {
+            padding: 1rem;
+        }
+        .border {
+            border: 1px solid #e5e7eb;
+        }
+        .rounded {
+            border-radius: 0.5rem;
+        }
+        .shadow-sm {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+        .text-xl {
+            font-size: 1.25rem;
+        }
+        .font-bold {
+            font-weight: 700;
+        }
+        .text-lg {
+            font-size: 1.125rem;
+        }
+        .font-semibold {
+            font-weight: 600;
+        }
+        .hover\\:shadow-lg:hover {
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        footer {
+            background-color: #f0f4f8;
+            color: #6b7280;
+            padding: 1rem;
+            margin-top: 1.5rem;
+        }
+        footer .container {
+            text-align: center;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <h1 class="text-2xl font-bold">
+     About Us - Teacher Scheduling
+    </h1>
+   </div>
+  </header>
+  <main>
+   <section>
+    <h2 class="text-xl font-bold mb-4">
+     Our Mission
+    </h2>
+    <p>
+     At Teacher Scheduling, our mission is to streamline the scheduling process for teachers and students, ensuring that classes are organized efficiently and effectively. We aim to provide a platform that simplifies the management of class schedules, making it easier for teachers to focus on what they do best - teaching.
+    </p>
+   </section>
+   <section>
+    <h2 class="text-xl font-bold mb-4">
+     Our Team
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="p-4 border rounded shadow-sm">
+      <img alt="Portrait of John Doe, CEO" class="mb-4 w-full h-40 object-cover" height="200" src="./jon snow.webp" width="300"/>
+      <h3 class="text-lg font-semibold">
+       John Snow
+      </h3>
+      <p>
+       CEO
+      </p>
+      <p>
+       John is the visionary behind Teacher Scheduling, with over 20 years of experience in the education sector.
+      </p>
+     </div>
+     <div class="p-4 border rounded shadow-sm">
+      <img alt="Portrait of Jane Smith, CTO" class="mb-4 w-full h-40 object-cover" height="200" src="./walter.webp" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Walter White
+      </h3>
+      <p>
+       CTO
+      </p>
+      <p>
+       Jane leads our technology team, ensuring that our platform is robust, secure, and user-friendly.
+      </p>
+     </div>
+     <div class="p-4 border rounded shadow-sm">
+      <img alt="Portrait of Emily Johnson, COO" class="mb-4 w-full h-40 object-cover" height="200" src="./tyrion.webp" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Tyrion Lannister
+      </h3>
+      <p>
+       COO
+      </p>
+      <p>
+       Emily oversees our operations, making sure that everything runs smoothly and efficiently.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="text-xl font-bold mb-4">
+     Contact Us
+    </h2>
+    <p>
+     If you have any questions or would like to learn more about our services, please feel free to reach out to us:
+    </p>
+    <ul class="list-disc list-inside">
+     <li>
+      Email:
+      <a class="text-blue-500" href="mailto:vinayak22451@gmail.com">
+       vinayak22451@gmail.com
+      </a>
+     </li>
+     <li>
+      Phone: 1234567890
+     </li>
+     <li>
+      Address: 123 
+     </li>
+    </ul>
+   </section>
+  </main>
+  <footer>
+   <div class="container">
+    <p>
+     © 2025 Teacher Scheduling. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
